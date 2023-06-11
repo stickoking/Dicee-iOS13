@@ -5,13 +5,6 @@
 //  Created by Prasshant Shanmugalingam on 11/06/2023.
 //
 
-//
-//  ViewController.swift
-//  Dicee-iOS13
-//
-//  Created by Prasshant Shanmugalingam on 11/06/2023.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
