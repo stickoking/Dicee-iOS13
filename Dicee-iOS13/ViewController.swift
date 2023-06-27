@@ -13,19 +13,17 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var diceImageViewOne: UIImageView!
     @IBOutlet weak var diceImageViewTwo: UIImageView!
-    
+    @IBOutlet weak var rollButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         adjustOpacity(true)
         
-      
     }
     
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         diceImageViewOne.image = UIImage(imageLiteralResourceName: dice.randomElement()!)
         diceImageViewTwo.image = UIImage(imageLiteralResourceName: dice.randomElement()!)
         adjustOpacity(false)
-        
     }
     
     func adjustOpacity(_ initialize: Bool) {
